@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\Inc\NXP\LPC17xx
+-D__UVISION_VERSION="523"
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "main.c"

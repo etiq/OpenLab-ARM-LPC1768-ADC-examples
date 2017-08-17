@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\Inc\NXP\LPC17xx
+-D__UVISION_VERSION="523"
+-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d "delay.c"
